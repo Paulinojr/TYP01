@@ -1,0 +1,19 @@
+{
+	"name": "typ01",
+	"version": "1.0.0",
+	"proxy": "http://localhost:5000/",
+	"scripts": {
+		"client": "cd client && npm start",
+		"server": "node server.js",
+		"dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+	},
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.2",
+		"styled-components": "^3.4.5",
+		"watson-developer-cloud": "^3.9.1"
+	},
+	"devDependencies": {
+		"concurrently": "^3.5.0"
+	}
+}
