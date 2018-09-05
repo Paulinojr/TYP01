@@ -17,8 +17,17 @@ class Container extends Component {
 		this.handleChange = this.handleChange.bind(this)
 	}
 
+	componentDidMount(){
+		this.startConversation()
+		.then(res => console.log(res))
+    .catch(err => console.log(err));
+	}
+
 	handleSubmit(event){
-		console.log("this is the message: ", this.state.value)
+		console.log(this.state.value)
+		this.sendMessage()
+		.then(res => console.log(res))
+    .catch(err => console.log(err));
 		event.preventDefault()
 	}
 
@@ -26,12 +35,37 @@ class Container extends Component {
 		this.setState({value: event.target.value})
 	}
 
+	startConversation = async () => {
+	 const response = await fetch('/conversation/',{
+    	method: 'POST',
+    	body: JSON.stringify({
+      	message: ''
+    	}),
+    	headers: {"Content-Type": "application/json"}
+  	})
+	 const body = await response.json();
+	 if (response.status !== 200) throw Error(body.message);
+
+	 return body;
+ 	};
+
+	sendMessage = async () => {
+	 const response = await fetch('/conversation/',{
+    	method: 'POST',
+    	body: JSON.stringify({
+      	message: this.state.value
+    	}),
+    	headers: {"Content-Type": "application/json"}
+  	})
+	 const body = await response.json();
+	 if (response.status !== 200) throw Error(body.message);
+
+	 return body;
+ 	};
+
 	render(){
 		return(
 			<StyledContainer>
-				<BotMessage></BotMessage>
-
-				<UserMessage></UserMessage>
 
 				<form onSubmit={this.handleSubmit}>
 					<InputBox>

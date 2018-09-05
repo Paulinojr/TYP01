@@ -10,17 +10,27 @@ const service = new AssistantV1({
   version: '2018-02-16'
 });
 
-const workspace_id = '0634caf6-8e0e-4c90-9ad4-c7ef792ffc2e';
 
 const app = express();
 app.use(bodyParser.json());
 
 const port = 5000;
 
-app.get('/conversation/:text*?', (req, res) => {
-    const { text } = req.params;
+app.post('/conversation/', (req, res) => {
+  const { text, context = {} } = req.body;
+  
+  const params = {
+    input: { text },
+    workspace_id: '0634caf6-8e0e-4c90-9ad4-c7ef792ffc2e',
+    context,
+  };
 
-    res.json(text);
+  service.message(params, (err, response) => {
+    if (err) res.status(500).json(err);
+
+    //return req.body
+    res.json(response);
+  });
 });
 
 app.listen(port, () => console.log(`Running on port ${port}`));
