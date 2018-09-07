@@ -13,22 +13,26 @@ const service = new AssistantV1({
 
 const app = express();
 app.use(bodyParser.json());
+app.use(express.static('./client'));
 
 const port = 5000;
 
 app.post('/conversation/', (req, res) => {
   const { text, context = {} } = req.body;
-  
+
+
+
   const params = {
-    input: { text },
     workspace_id: '0634caf6-8e0e-4c90-9ad4-c7ef792ffc2e',
-    context,
+    input: { text: text },
+    context
   };
+
+  console.log(params);
 
   service.message(params, (err, response) => {
     if (err) res.status(500).json(err);
 
-    //return req.body
     res.json(response);
   });
 });

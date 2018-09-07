@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import StyledContainer from './Container.styled'
-import BotMessage from './BotMessage'
-import UserMessage from './UserMessage'
+import Message from './Message'
 import { Input, InputBox, Send } from './InputBox.styled.js'
 
 
@@ -10,24 +9,50 @@ class Container extends Component {
 		super(props)
 
 		this.state = {
-				value: ''
+			value: '',
+			messages: [],
+			context: {}
 		}
 
 		this.handleSubmit = this.handleSubmit.bind(this)
 		this.handleChange = this.handleChange.bind(this)
+		this.handleBotMessage = this.handleBotMessage.bind(this)
+		this.handleUserMessage = this.handleUserMessage.bind(this)
 	}
 
 	componentDidMount(){
-		this.startConversation()
-		.then(res => console.log(res))
-    .catch(err => console.log(err));
+		this.sendMessage()
+		.then(res => this.handleBotMessage(res))
+		.catch(err => console.log(err))
+	}
+
+	handleBotMessage(message){
+		this.setState({
+			messages: this.state.messages.concat({
+				message: message.output.text,
+				messageClass: 'botMessage'
+			})
+		})
+	}
+
+	handleUserMessage(userMessage){
+		this.setState({
+			messages: this.state.messages.concat({
+				message: userMessage,
+				messageClass: 'userMessage'
+			})
+		})
 	}
 
 	handleSubmit(event){
-		console.log(this.state.value)
+		this.handleUserMessage(this.state.value)
+
 		this.sendMessage()
-		.then(res => console.log(res))
-    .catch(err => console.log(err));
+		.then(res => this.handleBotMessage(res))
+		.catch(err => console.log(err));
+
+		this.setState({value: ''})
+		
 		event.preventDefault()
 	}
 
@@ -35,37 +60,37 @@ class Container extends Component {
 		this.setState({value: event.target.value})
 	}
 
-	startConversation = async () => {
-	 const response = await fetch('/conversation/',{
-    	method: 'POST',
-    	body: JSON.stringify({
-      	message: ''
-    	}),
-    	headers: {"Content-Type": "application/json"}
-  	})
-	 const body = await response.json();
-	 if (response.status !== 200) throw Error(body.message);
-
-	 return body;
- 	};
 
 	sendMessage = async () => {
-	 const response = await fetch('/conversation/',{
-    	method: 'POST',
-    	body: JSON.stringify({
-      	message: this.state.value
-    	}),
-    	headers: {"Content-Type": "application/json"}
-  	})
-	 const body = await response.json();
-	 if (response.status !== 200) throw Error(body.message);
+		const response = await fetch('/conversation/',{
+			method: 'POST',
+			body: JSON.stringify({
+				text: this.state.value,
+				context: this.state.context,
+			}),
+			headers: {"Content-Type": "application/json"}
+		})
+		const body = await response.json();
+		this.setState({context: body.context})
+		console.log(this.state.context)
 
-	 return body;
- 	};
+		if (response.status !== 200) throw Error(body.message);
+
+		return body;
+	};
 
 	render(){
 		return(
 			<StyledContainer>
+				{
+					this.state.messages.map(function(message, i){
+						return (
+							<span key={i} className={message.messageClass == 'userMessage' ? 'userMessageSpan' : ''}>
+								<Message value={message.message} messageClass={message.messageClass}></Message>
+							</span>
+						)
+					})
+				}
 
 				<form onSubmit={this.handleSubmit}>
 					<InputBox>
