@@ -28,8 +28,6 @@ app.post('/conversation/', (req, res) => {
     context
   };
 
-  console.log(params);
-
   service.message(params, (err, response) => {
     if (err) res.status(500).json(err);
 

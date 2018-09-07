@@ -21,3 +21,7 @@ html, body {
   @media only screen and (max-width: 1024px) {
     .userInput {
       width: 85%; } }
+
+.messageList {
+  max-height: 80%;
+  overflow-y: scroll; }

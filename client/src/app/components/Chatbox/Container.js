@@ -18,12 +18,17 @@ class Container extends Component {
 		this.handleChange = this.handleChange.bind(this)
 		this.handleBotMessage = this.handleBotMessage.bind(this)
 		this.handleUserMessage = this.handleUserMessage.bind(this)
+		this.scrollToBottom = this.scrollToBottom.bind(this)
 	}
 
 	componentDidMount(){
 		this.sendMessage()
 		.then(res => this.handleBotMessage(res))
 		.catch(err => console.log(err))
+	}
+
+	componentDidUpdate() {
+		this.scrollToBottom()
 	}
 
 	handleBotMessage(message){
@@ -52,7 +57,7 @@ class Container extends Component {
 		.catch(err => console.log(err));
 
 		this.setState({value: ''})
-		
+
 		event.preventDefault()
 	}
 
@@ -79,18 +84,24 @@ class Container extends Component {
 		return body;
 	};
 
+	scrollToBottom(){
+		
+	}
+
 	render(){
 		return(
 			<StyledContainer>
-				{
-					this.state.messages.map(function(message, i){
-						return (
-							<span key={i} className={message.messageClass == 'userMessage' ? 'userMessageSpan' : ''}>
-								<Message value={message.message} messageClass={message.messageClass}></Message>
-							</span>
-						)
-					})
-				}
+				<div className="messageList">
+					{
+						this.state.messages.map(function(message, i){
+							return (
+								<span key={i} className={message.messageClass == 'userMessage' ? 'userMessageSpan' : ''}>
+									<Message value={message.message} messageClass={message.messageClass}></Message>
+								</span>
+							)
+						})
+					}
+				</div>
 
 				<form onSubmit={this.handleSubmit}>
 					<InputBox>
