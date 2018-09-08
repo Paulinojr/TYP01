@@ -23,6 +23,6 @@ html, body {
       width: 85%; } }
 
 .messageList {
-  max-height: 80%;
+  max-height: 75%;
   overflow-x: hidden;
   overflow-y: scroll; }

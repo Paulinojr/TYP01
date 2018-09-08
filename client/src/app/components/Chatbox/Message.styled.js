@@ -3,15 +3,15 @@ import styled from 'styled-components'
 const Message = styled.div`
 	&.botMessage{
 		position: relative;
-		background: #379683;
+		background: #5CDB95;
+		box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
 		border-radius: .4em;
 		max-width: 500px;
 		min-height: 50px;
 		padding: 3px;
 		margin-bottom: 20px;
-
 		p{
-			color: #fff;
+			color: #05386B;
 			font-family: 'Krungthep';
 			font-weight: 100;
 		}
@@ -24,12 +24,12 @@ const Message = styled.div`
 
 	&.userMessage{
 		position: relative;
-		background: #5CDB95;
+		background: #fff;
+		box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
 		border-radius: .4em;
 		max-width: 500px;
 		min-height: 50px;
-		display: flex;
-		justify-content: flex-end;
+		min-width: 90px;
 		padding: 3px;
 		margin-bottom: 20px;
 
