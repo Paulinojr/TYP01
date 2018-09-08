@@ -100,7 +100,7 @@ class Container extends Component {
 					{
 						this.state.messages.map(function(message, i){
 							return (
-								<span key={i} className={message.messageClass == 'userMessage' ? 'userMessageSpan' : ''}>
+								<span key={i} className={message.messageClass === 'userMessage' ? 'userMessageSpan' : ''}>
 									<Message value={message.message} messageClass={message.messageClass}></Message>
 								</span>
 							)
