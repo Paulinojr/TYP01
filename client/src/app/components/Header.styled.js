@@ -16,85 +16,55 @@ const HeaderContainer = styled.div`
 const MobileAvatar = styled.svg`
 	display: none;
 	@media only screen and (max-width: 1024px){
-		width: 75px;
-		height: 50px;
-		display: block;
-		padding: 5px;
+		width: 50px;
+    height: 50px;
+    display: block;
+    padding: 10px;
+    margin-left: 15px;
 
-		.cls-1, .cls-10, .cls-8 {
-			fill: #fff;
+		.cls-1, .cls-2 {
+			fill: #ececec;
 		}
 
-		.cls-1 {
-			stroke: rgba(112,112,112,0.21);
-		}
-
-		.cls-11, .cls-2, .cls-4 {
-			fill: #208631;
-		}
-
-		.cls-2 {
-			stroke: rgba(112,112,112,0.53);
-		}
-
-		.cls-3 {
-			fill: #ededed;
-		}
-
-		.cls-3, .cls-5, .cls-7 {
-			stroke: rgba(142,139,139,0.31);
-		}
-
-		.cls-4 {
-			stroke: rgba(112,112,112,0.49);
-		}
-
-		.cls-6 {
-			fill: rgba(131,131,131,0);
-			stroke: rgba(112,112,112,0.31);
-		}
-
-		.cls-7 {
-			fill: #50a51a;
-		}
-
-		.cls-10, .cls-13, .cls-8, .cls-9 {
+		.cls-2, .cls-3, .cls-4, .cls-9 {
 			stroke: #707070;
 		}
 
-		.cls-8 {
-			stroke-width: 2px;
+		.cls-3 {
+			fill: #020202;
 		}
 
-		.cls-9 {
-			fill: rgba(255,255,255,0.63);
-		}
-
-		.cls-11 {
-			stroke: #238433;
-		}
-
-		.cls-12, .cls-13, .cls-15, .cls-17 {
+		.cls-12, .cls-4 {
 			fill: none;
 		}
 
-		.cls-12 {
-			stroke: #28743a;
+		.cls-5, .cls-6, .cls-9 {
+			fill: lime;
 		}
 
-		.cls-14 {
-			fill: rgba(255,255,255,0);
-			stroke: rgba(47,103,36,0.6);
+		.cls-5 {
+			stroke: rgba(112,112,112,0.6);
 		}
 
-		.cls-15 {
-			stroke: rgba(112,112,112,0.55);
+		.cls-6 {
+			stroke: #0c580c;
 		}
 
-		.cls-16 {
+		.cls-7 {
+			fill: #121010;
+		}
+
+		.cls-8 {
+			fill: #fff;
+		}
+
+		.cls-10, .cls-11 {
 			stroke: none;
 		}
-	}
+
+		.cls-11 {
+			fill: #707070;
+		}
 `
 const TitleSection = styled.div`
 	font-family: 'Krungthep';
