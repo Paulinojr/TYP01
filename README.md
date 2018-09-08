@@ -14,12 +14,12 @@ This is an updated version of the [TYP01 repository](https://github.com/Paulinoj
     $ git clone https://github.com/your_github_user/TYP01-frontend-backend.git
     ```
 
-  Then, access the folder the commando above created with:
+  Then, access the folder that the command above created with:
     ```
     $ cd TYP01-frontend-backend
     ```
 
-  Next, use the `npm install` command the install project dependencies:
+  Next, use the `npm install` command to install project dependencies:
     ```
     $ npm install
     ```
