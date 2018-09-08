@@ -31,6 +31,7 @@ const Message = styled.div`
 		display: flex;
 		justify-content: flex-end;
 		padding: 3px;
+		margin-bottom: 20px;
 
 		p{
 			color: #05386B;
