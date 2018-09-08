@@ -11,7 +11,7 @@ class Container extends Component {
 		this.state = {
 			value: '',
 			messages: [],
-			context: {}
+			context: {},
 		}
 
 		this.handleSubmit = this.handleSubmit.bind(this)
@@ -85,13 +85,18 @@ class Container extends Component {
 	};
 
 	scrollToBottom(){
-		
+		const scrollHeight = this.messageList.scrollHeight;
+	  const height = this.messageList.clientHeight;
+	  const maxScrollTop = scrollHeight - height;
+	  this.messageList.scrollTop = maxScrollTop > 0 ? maxScrollTop : 0;
 	}
 
 	render(){
 		return(
 			<StyledContainer>
-				<div className="messageList">
+				<div className="messageList" ref={(div) => {
+          this.messageList = div;
+        }}>
 					{
 						this.state.messages.map(function(message, i){
 							return (
