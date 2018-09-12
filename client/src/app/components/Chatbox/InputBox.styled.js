@@ -22,6 +22,9 @@ const Input = styled.input.attrs({
 	height: 45px;
 	border-radius: 21px;
 	border: 1px solid #5CDB95;
+	&:focus{
+		outline: none;
+	}
 `
 
 const Send = styled.button`
