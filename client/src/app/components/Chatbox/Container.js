@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import StyledContainer from './Container.styled'
 import Message from './Message'
 import { Input, InputBox, Send } from './InputBox.styled.js'
+import { IdentityModal } from './Modal.styled.js'
 
 
 class Container extends Component {
@@ -92,7 +93,10 @@ class Container extends Component {
 
 	render(){
 		return(
+
 			<StyledContainer>
+				<IdentityModal></IdentityModal>
+
 				<div className="messageList" ref={(div) => {
           this.messageList = div;
         }}>
