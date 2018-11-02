@@ -39,6 +39,10 @@ app.post('/conversation/', (req, res) => {
       saveConversationData(response);
     }
 
+    if(req.body.text != "" && req.body.context.length != 0){
+      saveUserData(req.body, response)
+    }
+
     res.json(response);
   });
 });
@@ -54,8 +58,12 @@ const saveConversationData = (response) => {
       });
 };
 
-const saveUserData = (response) => {
-
+const saveUserData = (request, response) => {
+  session
+    .run('MATCH (s:Session { conversation_id:"'+ response.context.conversation_id +'" }) CREATE (um: UserMessage { text:"'+ request.text +'", time: "12:00" , dialog_request_counter:"'+ response.context.system.dialog_request_counter +'"})CREATE (s)-[c:CONTAINS]->(um)')
+    .catch(function(err){
+      console.log(err);
+    });
 };
 
 const saveBotData = () => {
