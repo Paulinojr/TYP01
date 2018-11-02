@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import StyledContainer from './Container.styled'
 import Message from './Message'
 import { Input, InputBox, Send } from './InputBox.styled.js'
-import { IdentityModal } from './Modal.styled.js'
 
 
 class Container extends Component {
@@ -77,6 +76,8 @@ class Container extends Component {
 			headers: {"Content-Type": "application/json"}
 		})
 		const body = await response.json();
+
+		console.log(body);
 		this.setState({context: body.context})
 
 		if (response.status !== 200) throw Error(body.message);
@@ -95,7 +96,6 @@ class Container extends Component {
 		return(
 
 			<StyledContainer>
-				<IdentityModal></IdentityModal>
 
 				<div className="messageList" ref={(div) => {
           this.messageList = div;
