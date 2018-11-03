@@ -43,6 +43,10 @@ app.post('/conversation/', (req, res) => {
       saveUserData(req.body, response)
     }
 
+    if(response){
+      saveBotData(response);
+    }
+
     res.json(response);
   });
 });
@@ -52,30 +56,31 @@ const saveConversationData = (response) => {
   let date = new Date();
 
   session
-      .run('CREATE(s:Session { conversation_id: "'+response.context.conversation_id+'", date:"'+ date +'", user_type: "Aluno" })')
-      .catch(function(err){
-          console.log(err);
-      });
+  .run('CREATE(s:Session { conversation_id: "'+response.context.conversation_id+'", date:"'+ date +'", user_type: "Aluno" })')
+  .catch(function(err){
+    console.log(err);
+  });
 };
 
 const saveUserData = (request, response) => {
   session
-    .run('MATCH (s:Session { conversation_id:"'+ response.context.conversation_id +'" }) CREATE (um: UserMessage { text:"'+ request.text +'", time: "12:00" , dialog_request_counter:"'+ response.context.system.dialog_request_counter +'"})CREATE (s)-[c:CONTAINS]->(um)')
-    .catch(function(err){
-      console.log(err);
-    });
+  .run('MATCH (s:Session { conversation_id:"'+ response.context.conversation_id +'" }) CREATE (um:UserMessage { text:"'+ request.text +'", time: "12:00" , dialog_request_counter:"'+ response.context.system.dialog_request_counter +'"})CREATE (s)-[c:CONTAINS]->(um)')
+  .catch(function(err){
+    console.log(err);
+  });
 };
 
-const saveBotData = () => {
-  session
-      .run('MATCH(n:Session) RETURN n')
-      .then(function(result){
-        result.records.forEach(function(record){
-          console.log(record._fields[0].properties);
-        });
-      })
-      .catch(function(err){
-          console.log(err);
+const saveBotData = (response) => {
+  let botMessage = "";
+  if(response.output.text){
+      let messageArray = response.output.text;
+      messageArray.forEach(function (message){
+        botMessage += message.replace(/"/g, "&quot;")+ " ";
       });
-
+  }
+  session
+  .run('MATCH (s:Session { conversation_id:"'+ response.context.conversation_id +'" }) CREATE (bm:BotMessage { text:"' + botMessage +'", time: "12:01" , dialog_request_counter:"' + response.context.system.dialog_request_counter + '"}) CREATE (s)-[c:CONTAINS]->(bm)')
+  .catch(function(err){
+    console.log(err);
+  });
 };
