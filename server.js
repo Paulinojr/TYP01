@@ -63,8 +63,12 @@ const saveConversationData = (response) => {
 };
 
 const saveUserData = (request, response) => {
+  let responseArray = response
   session
   .run('MATCH (s:Session { conversation_id:"'+ response.context.conversation_id +'" }) CREATE (um:UserMessage { text:"'+ request.text +'", time: "12:00" , dialog_request_counter:"'+ response.context.system.dialog_request_counter +'"})CREATE (s)-[c:CONTAINS]->(um)')
+  .then(function(result){
+    saveRecognizedData(responseArray);
+  })
   .catch(function(err){
     console.log(err);
   });
@@ -84,3 +88,11 @@ const saveBotData = (response) => {
     console.log(err);
   });
 };
+
+const saveRecognizedData = (response) => {
+    session
+      .run('MATCH (um:UserMessage { dialog_request_counter:"'+ response.context.system.dialog_request_counter + '" }) CREATE (i:Intent {title: "'+response.intents[0].intent+'"}) CREATE (um)-[f:FITS {confidence: ["'+ response.intents[0].confidence +'"]}]->(i)')
+      .catch(function(err){
+          console.log(err);
+      });
+}
