@@ -1,0 +1,4575 @@
+[
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 36,
+          "high": 0
+        },
+        "labels": [
+          "Session"
+        ],
+        "properties": {
+          "date": "Mon Nov 05 2018 18:45:16 GMT-0200 (-02)",
+          "conversation_id": "b31a1832-48d4-4b7b-ad50-3b5714c6d0bd",
+          "user_type": "Aluno"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 54,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "3",
+          "text": "Eu não entendi. Você pode tentar reformular a frase? ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 74,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "4",
+          "text": "Quero repor uma aula",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 75,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "4",
+          "text": "Você pode reformular sua afirmação? Eu não estou entendendo. ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 76,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "5",
+          "text": "Quero abonar uma falta",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 77,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "5",
+          "text": "A solicitação de abono de faltas deverá ser encaminhada a Coordenadoria de Registros Acadêmicos, localizada na secretaria do câmpus, com um documento que comprove o ato em até dois dias úteis após o evento. Quer saber quais são os casos em que o abono é possível e quais documentos podem ser usados? ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 78,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq01_AbonoDeFaltas"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 79,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq01_AbonoDeFaltas"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 80,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "6",
+          "text": "Horário de atendimentos dos professores",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 83,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "6",
+          "text": "trabalhos futuros ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 84,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "trabalhosfuturos"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 85,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "trabalhosfuturos"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 86,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "7",
+          "text": "Quais documentos preciso para matrícula?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 87,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "7",
+          "text": "A matrícula deve ser renovada a cada semestre letivo por meio do Requerimento de Rematrícula. Deve ser solicitado e entregue na Coordenadoria de Registros Escolares no prazo estabelecidos conforme Calendário Escolar. Hoje, os alunos normalmente a fazem pelo SUAP. ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 88,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 89,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 90,
+          "high": 0
+        },
+        "labels": [
+          "Session"
+        ],
+        "properties": {
+          "date": "Thu Nov 08 2018 19:25:23 GMT-0200 (-02)",
+          "conversation_id": "83e92b55-f795-4c32-9a3b-b25a9f053da8",
+          "user_type": "Aluno"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 91,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "1",
+          "text": "Olá Alun@! Sou o TYP01, estou aqui para te ajudar com suas dúvidas em relação ao IFSP - Campus Bragança Paulista! Pode perguntar!  :D ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 92,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 93,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 94,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "1",
+          "text": "Olá Alun@! Sou o TYP01, estou aqui para te ajudar com suas dúvidas em relação ao IFSP - Campus Bragança Paulista! Pode perguntar!  :D ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 95,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "text": "Hello its me",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 96,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "text": "Você pode reformular sua afirmação? Eu não estou entendendo. ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 97,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "tst_live"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 98,
+          "high": 0
+        },
+        "labels": [
+          "Session"
+        ],
+        "properties": {
+          "date": "Tue Nov 06 2018 14:54:36 GMT-0200 (-02)",
+          "conversation_id": "41dcbf51-7aa5-4fe1-8281-8adbe10ce3cc",
+          "user_type": "Aluno"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 99,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "1",
+          "text": "Olá Alun@! Sou o TYP01, estou aqui para te ajudar com suas dúvidas em relação ao IFSP - Campus Bragança Paulista! Pode perguntar!  :D ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 100,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq15_TrancamentoDeMatrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 101,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq15_TrancamentoDeMatrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 102,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "text": "Olá Typo, eu sofri um acidente e não quero perder o conteúdo das aulas, como faço para continuar acompanhando as matérias?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 103,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "text": "A solicitação de abono de faltas deverá ser encaminhada a Coordenadoria de Registros Acadêmicos, que fica na secretaria, com o documento que comprove o ato, em até dois dias úteis após o evento. Em caso de afastamento médico com período igual ou superior a 15 (quinze) dias o aluno poderá entrar com o pedido de Regime de Exercícios Domiciliares (RED). O Regime de Exercícios Domiciliares é usado normalmente por alunos que tiram licença maternidade, ou que sofrem acidentes e continuam o curso de casa. Quer saber quais são os documentos que podem ser usados? ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 104,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq09_RegimeDeExercíciosDomiciliares"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 105,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq09_RegimeDeExercíciosDomiciliares"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 106,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq09_RegimeDeExercíciosDomiciliares"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 107,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "3",
+          "text": "superior",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 108,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "3",
+          "text": "Existem duas formas de você eliminar uma disciplina: Requerindo um &quot;Aproveitamento de estudos&quot; ou então um &quot;Extraordinário aproveitamento de estudos&quot;. Quer saber de forma mais aprofundada sobre algum deles? Qual? ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 109,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "4",
+          "time": "12:00",
+          "text": "Como eliminar uma materia?"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 110,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "4",
+          "text": "Sobre qual curso? Superior, Técnico ou Pós Graduação? ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 111,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq02__EliminarMateria"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 112,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "5",
+          "text": "Superior",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 113,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "5",
+          "text": "Existem duas formas de você eliminar uma disciplina: Requerindo um &quot;Aproveitamento de estudos&quot; ou então um &quot;Extraordinário aproveitamento de estudos&quot;. Quer saber de forma mais aprofundada sobre algum deles? Qual? ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 114,
+          "high": 0
+        },
+        "labels": [
+          "Session"
+        ],
+        "properties": {
+          "date": "Mon Nov 05 2018 18:46:44 GMT-0200 (-02)",
+          "conversation_id": "baa121fa-f1e2-4015-8af3-d0d51ef8008f",
+          "user_type": "Aluno"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 115,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "1",
+          "text": "Olá Alun@! Sou o TYP01, estou aqui para te ajudar com suas dúvidas em relação ao IFSP - Campus Bragança Paulista! Pode perguntar!  :D ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 116,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "6",
+          "text": "Sim, web 2",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 117,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "6",
+          "text": "Você pode reformular sua afirmação? Eu não estou entendendo. ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 118,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "tst_live"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 119,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "7",
+          "time": "12:00",
+          "text": "Como retirar diplomas?"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 120,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "time": "12:00",
+          "text": "como passa na materia do jefferson"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 121,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "text": "Sobre qual curso? Superior, Técnico ou Pós Graduação? ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 122,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq02__EliminarMateria"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 123,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq02__EliminarMateria"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 124,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq02__EliminarMateria"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 125,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "3",
+          "text": "valeu",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 126,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "3",
+          "text": "Sou novo, não consegui entender o que você disse. Desculpe :/ ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 127,
+          "high": 0
+        },
+        "labels": [
+          "Session"
+        ],
+        "properties": {
+          "date": "Thu Nov 08 2018 19:06:46 GMT-0200 (-02)",
+          "conversation_id": "370cef94-f3c3-4e0e-bb65-9e23c3d383f0",
+          "user_type": "Aluno"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 128,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "1",
+          "text": "Olá Alun@! Sou o TYP01, estou aqui para te ajudar com suas dúvidas em relação ao IFSP - Campus Bragança Paulista! Pode perguntar!  :D ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 129,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "text": "Gostaria de saber se posso faltar na disciplina de eletiva 2",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 130,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "text": "Sobre qual curso? Superior, Técnico ou Pós Graduação? ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 131,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq02__EliminarMateria"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 132,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq02__EliminarMateria"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 133,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq02__EliminarMateria"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 134,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "text": "teste :)",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 135,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "text": "Sobre qual curso? Técnico ou superior? ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 136,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq06_FormaDeIngresso-ProcessoSeletivo"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 137,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq06_FormaDeIngresso-ProcessoSeletivo"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 138,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq02__EliminarMateria"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 139,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "time": "12:00",
+          "text": "Quero trancar minha matrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 140,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "text": "O estudante pode escolher a interrupção dos estudos, sem perda do vínculo com o IFSP, com duração máxima de um ano. Para isso deve requerir na secretaria e deve já ter concluído os componentes curriculares do primeiro semestre. Consulte o calendário acadêmico para ver o período correto de requerir: http://bra.ifsp.edu.br/calendarios ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 141,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq15_TrancamentoDeMatrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 142,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq15_TrancamentoDeMatrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 143,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq15_TrancamentoDeMatrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 144,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "7",
+          "text": "Sobre qual curso? Técnico ou superior? ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 145,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq06_FormaDeIngresso-ProcessoSeletivo"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 146,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "8",
+          "text": "superior",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 147,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "8",
+          "text": "Para o curso Superior é preciso ter concluído o Ensino Médio ou equivalente. O aluno ingressará na Instituição: - Quando for classificado no Sisu (Sistema de Seleção Unificada) por meio do ENEM ou em processo seletivo próprio (vestibular).\n- Apresentando todos os documentos exigidos em Edital;\n- Assinando o Requerimento de Matrícula; Os editais aparecem no site http://bra.ifsp.edu.br/ ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 148,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "9",
+          "text": "Quais os horarios da biblioteca?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 149,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "9",
+          "text": "trabalhos futuros ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 150,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "trabalhosfuturos"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 151,
+          "high": 0
+        },
+        "labels": [
+          "Session"
+        ],
+        "properties": {
+          "date": "Thu Nov 08 2018 19:13:22 GMT-0200 (-02)",
+          "conversation_id": "f63676a4-d873-4e3d-9873-581400daa418",
+          "user_type": "Aluno"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 152,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "1",
+          "text": "Olá Alun@! Sou o TYP01, estou aqui para te ajudar com suas dúvidas em relação ao IFSP - Campus Bragança Paulista! Pode perguntar!  :D ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 153,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "3",
+          "time": "12:00",
+          "text": "Quero repor uma aula que faltei"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 154,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq09_RegimeDeExercíciosDomiciliares"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 155,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq09_RegimeDeExercíciosDomiciliares"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 156,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq09_RegimeDeExercíciosDomiciliares"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 157,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "3",
+          "text": "sim",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 158,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "3",
+          "text": "Os casos e documentos que podem ser usados para pedir um abono de faltas são:\n\n- Declaração de corporação militar, comprovando ausência;\n- Comprovante de participação do estudante em reuniões da Comissão Nacional de Avaliação da educação superior (CONAES) em horário coincidente com as atividades acadêmica (Lei nº 10861/04);\n- Declaração do Diretor-Geral do campus, comprovando que o estudante esteve representando o IFSP;\n- Atestado médico para os casos previstos em lei.\n- Certidão de óbito de parentes de 1º (primeiro) grau ou cônjuge;\n- Solicitação judicial. ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 159,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "4",
+          "text": "gostaria de uma revisão da minha prova de matemática",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 160,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "4",
+          "text": "A primeira revisão de uma atividade avaliativa é feita pelo professor em sala de aula. Caso um aluno discorde da nota da primeira revisão, ele pode protocolar, em formulário próprio, na Coordenadoria de Registros Escolares a revisão dos procedimento avaliativos (Art. 36  da Organização Didática do IFSP). O prazo determinado para requerer a revisão da prova, será de 48 horas após a divulgação oficial das notas. O pedido de revisão de prova somente se efetivará mediante requerimento fundamentado do aluno. O não exercício do direito de revisão de prova dentro do prazo implica em preclusão. ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 161,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq13_RevisãoDeProva"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 162,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq13_RevisãoDeProva"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 163,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq13_RevisãoDeProva"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 164,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "5",
+          "text": "gostaria de saber os horários das minhas aulas",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 165,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "5",
+          "text": "O período letivo, independente do ano civil, abrange, cem dias letivos em cada semestre. É possível que existam atividades ou aulas aos sábados. Para saber as datas exatas, consulte o calendário escolar no link: http://bra.ifsp.edu.br/calendarios ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 166,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq07_PeríodoLetivo"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 167,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq07_PeríodoLetivo"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 168,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq07_PeríodoLetivo"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 169,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "6",
+          "time": "12:00",
+          "text": "gostaria de saber sobre um lugar para comer"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 170,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "6",
+          "text": "Para saber sobre todas as datas oficiais do IFSP como feriados, períodos de inscrições, férias e etc, consulte o &quot;Calendário Acadêmico&quot; disponível no link: http://bra.ifsp.edu.br/calendarios ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 171,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "consultar_calendario_escolar"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 172,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "consultar_calendario_escolar"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 173,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "consultar_calendario_escolar"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 174,
+          "high": 0
+        },
+        "labels": [
+          "Session"
+        ],
+        "properties": {
+          "date": "Thu Nov 08 2018 19:38:04 GMT-0200 (-02)",
+          "conversation_id": "16d25b7c-096f-416a-936b-c2638b323075",
+          "user_type": "Aluno"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 175,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "1",
+          "text": "Olá Alun@! Sou o TYP01, estou aqui para te ajudar com suas dúvidas em relação ao IFSP - Campus Bragança Paulista! Pode perguntar!  :D ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 176,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "text": "eu preciso parar o meu curso por um tempo, o que eu faço?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 177,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "text": "Para saber sobre todas as datas oficiais do IFSP como feriados, períodos de inscrições, férias e etc, consulte o &quot;Calendário Acadêmico&quot; disponível no link: http://bra.ifsp.edu.br/calendarios ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 178,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "consultar_calendario_escolar"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 179,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "consultar_calendario_escolar"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 180,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "consultar_calendario_escolar"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 181,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "consultar_calendario_escolar"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 182,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "consultar_calendario_escolar"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 183,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "consultar_calendario_escolar"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 184,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "consultar_calendario_escolar"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 185,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "3",
+          "text": "eu preciso fazer uma rematricula no curso superior?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 186,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "3",
+          "text": "A matrícula deve ser renovada a cada semestre letivo por meio do Requerimento de Rematrícula. Deve ser solicitado e entregue na Coordenadoria de Registros Escolares no prazo estabelecidos conforme Calendário Escolar. Hoje, os alunos normalmente a fazem pelo SUAP. ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 194,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 195,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 196,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 197,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "4",
+          "text": "onde eu acesso o suap?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 198,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "4",
+          "text": "trabalhos futuros ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 199,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "trabalhosfuturos"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 200,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "trabalhosfuturos"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 201,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "trabalhosfuturos"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 202,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "trabalhosfuturos"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 203,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "5",
+          "text": "como eu consigo um estágio no ifsp?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 204,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "5",
+          "text": "O cancelamento da matrícula pode ser feito pelo estudante, ou pelo próprio IFSP, sobre qual dos dois casos gostaria de saber? ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 205,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq03_CancelamentoDeMatricula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 206,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq03_CancelamentoDeMatricula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 207,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq03_CancelamentoDeMatricula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 208,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq03_CancelamentoDeMatricula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 209,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "6",
+          "time": "12:00",
+          "text": "qual o limite de faltas no superior?"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 210,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "6",
+          "text": "trabalhos futuros ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 211,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "trabalhosfuturos"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 212,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "trabalhosfuturos"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 213,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "trabalhosfuturos"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 214,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "trabalhosfuturos"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 215,
+          "high": 0
+        },
+        "labels": [
+          "Session"
+        ],
+        "properties": {
+          "date": "Thu Nov 08 2018 20:41:18 GMT-0200 (-02)",
+          "conversation_id": "616836a8-4453-4b7a-ada7-730ed4fc7993",
+          "user_type": "Aluno"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 216,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "1",
+          "text": "Olá Alun@! Sou o TYP01, estou aqui para te ajudar com suas dúvidas em relação ao IFSP - Campus Bragança Paulista! Pode perguntar!  :D ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 217,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "text": "Boa noite. Tenho de me rematricular para o segundo semestre ou isso ocorrera automaticamente?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 218,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "2",
+          "text": "A matrícula deve ser renovada a cada semestre letivo por meio do Requerimento de Rematrícula. Deve ser solicitado e entregue na Coordenadoria de Registros Escolares no prazo estabelecidos conforme Calendário Escolar. Hoje, os alunos normalmente a fazem pelo SUAP. ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 219,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 220,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 221,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 222,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 223,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 224,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 225,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 226,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq12_Rematrícula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 227,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq06_FormaDeIngresso-ProcessoSeletivo"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 228,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq06_FormaDeIngresso-ProcessoSeletivo"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 229,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "10",
+          "time": "12:00",
+          "text": "Os cursos sao gratuitos?"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 230,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "10",
+          "text": "O cancelamento da matrícula pode ser feito pelo estudante, ou pelo próprio IFSP, sobre qual dos dois casos gostaria de saber? ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 231,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "faq03_CancelamentoDeMatricula"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 234,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "3",
+          "text": "Boa noite. Ate quando irão as aulas neste semestre?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 235,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "3",
+          "text": "Olá Alun@! Sou o TYP01, estou aqui para te ajudar com suas dúvidas em relação ao IFSP - Campus Bragança Paulista! Pode perguntar!  :D ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 236,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 237,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 238,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 239,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 240,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 241,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 242,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "4",
+          "text": "Boa noite. Quando terminarão as aulas deste semestre?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 243,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "4",
+          "text": "Olá Alun@! Sou o TYP01, estou aqui para te ajudar com suas dúvidas em relação ao IFSP - Campus Bragança Paulista! Pode perguntar!  :D ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 244,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 245,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 246,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 247,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 248,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 249,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "5",
+          "text": "Boa noite. Quais sao os horarios das aulas?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 250,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "5",
+          "text": "Olá Alun@! Sou o TYP01, estou aqui para te ajudar com suas dúvidas em relação ao IFSP - Campus Bragança Paulista! Pode perguntar!  :D ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 251,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 252,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 253,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 254,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 255,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 256,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "6",
+          "text": "Boa noite. Quais são os horários dos períodos na faculdade?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 257,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "6",
+          "text": "Olá Alun@! Sou o TYP01, estou aqui para te ajudar com suas dúvidas em relação ao IFSP - Campus Bragança Paulista! Pode perguntar!  :D ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 258,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 259,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 260,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 261,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 262,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "Saudações"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 263,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "7",
+          "text": "Quais são os horários dos períodos na faculdade?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 264,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "7",
+          "text": "Para saber sobre todas as datas oficiais do IFSP como feriados, períodos de inscrições, férias e etc, consulte o &quot;Calendário Acadêmico&quot; disponível no link: http://bra.ifsp.edu.br/calendarios ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 265,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "consultar_calendario_escolar"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 266,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "consultar_calendario_escolar"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 267,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "consultar_calendario_escolar"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 268,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "8",
+          "text": "Qual é o inicio das aulas deste semestre?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 269,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "8",
+          "text": "trabalhos futuros ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 270,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "trabalhosfuturos"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 271,
+          "high": 0
+        },
+        "labels": [
+          "Intent"
+        ],
+        "properties": {
+          "title": "trabalhosfuturos"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 272,
+          "high": 0
+        },
+        "labels": [
+          "UserMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "9",
+          "text": "Há muitas garotas bonitas na faculdade?",
+          "time": "12:00"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  },
+  {
+    "keys": [
+      "n"
+    ],
+    "length": 1,
+    "_fields": [
+      {
+        "identity": {
+          "low": 273,
+          "high": 0
+        },
+        "labels": [
+          "BotMessage"
+        ],
+        "properties": {
+          "dialog_request_counter": "9",
+          "text": "Para o curso Superior é preciso ter concluído o Ensino Médio ou equivalente. O aluno ingressará na Instituição: - Quando for classificado no Sisu (Sistema de Seleção Unificada) por meio do ENEM ou em processo seletivo próprio (vestibular).\n- Apresentando todos os documentos exigidos em Edital;\n- Assinando o Requerimento de Matrícula; Os editais aparecem no site http://bra.ifsp.edu.br/ ",
+          "time": "12:01"
+        }
+      }
+    ],
+    "_fieldLookup": {
+      "n": 0
+    }
+  }
+]
