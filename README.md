@@ -11,7 +11,7 @@ This is an updated version of the [TYP01 repository](https://github.com/Paulinoj
 
   First, clone the repo with:
     ```
-    $ git clone https://github.com/your_github_user/TYP01-frontend-backend.git
+    $ git clone https://github.com/Paulinojr/TYP01-frontend-backend.git
     ```
 
   Then, access the folder that the command above created with:
