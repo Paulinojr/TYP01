@@ -24,7 +24,7 @@ This is an updated version of the [TYP01 repository](https://github.com/Paulinoj
     $ npm install
     ```
  
-  Then, access the client folder with 
+  Then, access the client folder with:
   ```
     $ cd client/
   ```
@@ -32,7 +32,7 @@ This is an updated version of the [TYP01 repository](https://github.com/Paulinoj
   And run 
   
   ```
-  npm install again
+  $ npm install 
   
   ```
   again
@@ -42,5 +42,8 @@ This is an updated version of the [TYP01 repository](https://github.com/Paulinoj
  Finally, you can serve the project with:
     ```
     $ cd ..
+    ```
+ Then:
+    ```
     $ npm run dev
     ```
