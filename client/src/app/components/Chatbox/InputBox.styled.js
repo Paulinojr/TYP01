@@ -17,7 +17,10 @@ const Input = styled.input.attrs({
 	@media only screen and (max-width: 1024px){
 		width: 85%;
 	}
-	width: 92%;
+	@media only screen and (min-width: 1400px){
+		width: 92%;
+	}
+	width: 90%;
 	font-size: 14px;
 	height: 45px;
 	border-radius: 21px;
