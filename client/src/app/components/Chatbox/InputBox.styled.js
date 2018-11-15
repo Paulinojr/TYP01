@@ -17,7 +17,7 @@ const Input = styled.input.attrs({
 	@media only screen and (max-width: 1024px){
 		width: 85%;
 	}
-	width: 90%;
+	width: 92%;
 	font-size: 14px;
 	height: 45px;
 	border-radius: 21px;
@@ -25,6 +25,7 @@ const Input = styled.input.attrs({
 	&:focus{
 		outline: none;
 	}
+	padding-left: 10px;
 `
 
 const Send = styled.button`
@@ -41,9 +42,12 @@ const Send = styled.button`
 		border-radius: 50%;
 		margin-left: 0;
 	}
+
+	@media only screen and (min-width: 1400px){
+		width: 110px;
+	}
 	img{
 		width: 20px;
-    transform: rotate(-90deg);
 	}
 `
 
