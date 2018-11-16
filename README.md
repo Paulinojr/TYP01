@@ -23,8 +23,27 @@ This is an updated version of the [TYP01 repository](https://github.com/Paulinoj
     ```
     $ npm install
     ```
+ 
+  Then, access the client folder with:
+  ```
+    $ cd client/
+  ```
+  
+  And run 
+  
+  ```
+  $ npm install 
+  
+  ```
+  again
+  
+  
 
  Finally, you can serve the project with:
+    ```
+    $ cd ..
+    ```
+ Then:
     ```
     $ npm run dev
     ```
