@@ -62,7 +62,7 @@
       .cls-16 {
         fill: rgba(0,0,0,0.36);
         font-size: 3px;
-        font-family: Krungthep;
+        font-family: Share Tech Mono;
       }
 
       .cls-19, .cls-21 {

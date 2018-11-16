@@ -77,7 +77,6 @@ class Container extends Component {
 		})
 		const body = await response.json();
 
-		console.log(body);
 		this.setState({context: body.context})
 
 		if (response.status !== 200) throw Error(body.message);

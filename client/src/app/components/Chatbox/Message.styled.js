@@ -8,12 +8,13 @@ const Message = styled.div`
 		border-radius: .4em;
 		max-width: 500px;
 		min-height: 50px;
-		padding: 3px;
+		padding: 5px;
 		margin-bottom: 20px;
 		p{
 			color: #05386B;
-			font-family: 'Krungthep';
+			font-family: 'Share Tech Mono';
 			font-weight: 100;
+			font-size: 18px;
 		}
 
 		@media only screen and (max-width: 1024px){

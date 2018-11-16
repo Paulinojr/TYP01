@@ -29,7 +29,7 @@ const MobileAvatar = styled.img`
 		}
 `
 const TitleSection = styled.div`
-	font-family: 'Krungthep';
+	font-family: 'Share Tech Mono';
 	padding: 20px;
 	h1{
 		margin: 0px;
