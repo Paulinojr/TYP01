@@ -1,6 +1,9 @@
 import styled from 'styled-components'
 
 const IdentityModal = styled.div`
+		&.selected{
+			display: none;
+		}
 		width: 100vw;
 		height: 100vh;
 		z-index: 1;
