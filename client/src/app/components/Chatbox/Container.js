@@ -11,10 +11,10 @@ class Container extends Component {
 
 		this.state = {
 			value: '',
-			user_type: '',
+			userType: '',
 			messages: [],
 			context: {},
-			show_modal: true,
+			showModal: true,
 
 		}
 
@@ -30,14 +30,19 @@ class Container extends Component {
 		this.scrollToBottom()
 	}
 
-	handleUserType(value){
+	handleUserType(userValue, userCode){
 		this.setState({
-			user_type: value,
-			show_modal: false,
+			userType: userValue,
+			showModal: false,
+			value: userCode
 		}, () => {
 			this.sendMessage()
 			.then(res => this.handleBotMessage(res))
 			.catch(err => console.log(err))
+
+			this.setState({
+				value: ''
+			})
 		})
 	}
 
@@ -82,16 +87,17 @@ class Container extends Component {
 			body: JSON.stringify({
 				text: this.state.value,
 				context: this.state.context,
-				user_type: this.state.user_type
+				userType: this.state.userType
 			}),
 			headers: {"Content-Type": "application/json"}
 		})
+		const body = await response.json()
 
-		const body = await response.json();
+		console.log(body)
 
 		this.setState({context: body.context})
 
-		if (response.status !== 200) throw Error(body.message);
+		if (response.status !== 200) throw Error(body.message)
 
 		return body;
 	};
@@ -106,7 +112,7 @@ class Container extends Component {
 	render(){
 		return(
 			<StyledContainer>
-				<IdentityModal className={this.state.show_modal === false ? 'selected' : ''}>
+				<IdentityModal className={this.state.showModal === false ? 'selected' : ''}>
 					<div className="modal">
 						<Avatar className="avatar">
 							<g id="Group_19" data-name="Group 19" transform="translate(-118.494 -51)">
@@ -352,9 +358,9 @@ class Container extends Component {
 							<h2>
 								Olá, sou o TYP01 :D. Em qual das opções abaixo você se encaixa?
 							</h2>
-							<OptionButton onClick={() => {this.handleUserType('Aluno')}}>Aluno</OptionButton>
-							<OptionButton onClick={() => {this.handleUserType('Responsavel')}}>Responsável</OptionButton>
-							<OptionButton onClick={() => {this.handleUserType('Outro')}}>Outro</OptionButton>
+							<OptionButton onClick={() => {this.handleUserType('Aluno', 'ca0cd09a12abade3bf0777574d9f987f')}}>Aluno</OptionButton>
+							<OptionButton onClick={() => {this.handleUserType('Responsavel', '107ba285337598cc8ab7d1a0dd826c59')}}>Responsável</OptionButton>
+							<OptionButton onClick={() => {this.handleUserType('Outro', '5577d244b0e0f090fb16401226bfd8e4')}}>Outro</OptionButton>
 						</div>
 					</div>
 				</IdentityModal>

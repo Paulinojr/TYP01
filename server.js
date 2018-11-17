@@ -22,7 +22,7 @@ const port = 5000;
 app.listen(port);
 
 app.post('/conversation/', (req, res) => {
-  const { text, context = {}, user_type } = req.body;
+  const { text, context = {}, userType } = req.body;
 
   const params = {
     workspace_id: '0634caf6-8e0e-4c90-9ad4-c7ef792ffc2e',
@@ -55,7 +55,7 @@ const saveConversationData = (response, req) => {
 
   let date = new Date();
   session
-  .run('CREATE(s:Session { conversation_id: "'+response.context.conversation_id+'", date:"'+ date +'", user_type:"'+  req.body.user_type +'"})')
+  .run('CREATE(s:Session { conversation_id: "'+response.context.conversation_id+'", date:"'+ date +'", user_type:"'+  req.body.userType +'"})')
   .catch(function(err){
     console.log(err);
   });
